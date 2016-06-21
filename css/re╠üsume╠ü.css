@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Quicksand|Montserrat:400,700|Raleway);
+header {
+    height: 15em;
+}
+
+h1 {
+    color: rgb(3, 193, 123);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 400;
+    /*border: 1px solid black;
+	box-sizing:border-box;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list li {
+    color: rgb(6, 148, 180);
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    transitions: all 0.3s;
+    vertical-align: top;
+    /*border: 1px solid black;
+	box-sizing:border-box;*/
+}
+
+.nav-list {
+    text-align: center;
+    /*border: 1px solid black;
+	box-sizing:border-box;*/
+    padding: 0em 5%;
+}
+
+.nav-list li:hover >ul {
+    display: block;
+    /*border: 1px solid black;
+	box-sizing:border-box;*/
+    padding: 0em 2.5%;
+}
+
+.sub-nav-element {
+    display: none;
+    /*border: 1px solid black;
+	box-sizing:border-box;*/
+    padding: 0em 2.5%;
+}
+
+.sub-nav-element li {
+    font-size: .65em;
+    color: rgb(3, 203, 186);
+    text-align: center;
+    width: 45%;
+    position: relative;
+    display: inline-block;
+    /*border: 1px solid black;
+	box-sizing:border-box;*/
+}
+
+.jumbotron {
+    width: 80%;
+    height:400px;
+    padding:10%;
+    background-color: rgb(3,203,186);
+}
+
+.jumbotron h1 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding-top:8%;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    width:10em;
+    height:10em;
+    clip-path:circle(50% at 50% 50%);
+}
+
+.footer h1 {
+    font-size: 1.8em;
+    color: rgb(3, 193,123);
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 9.5%;
+}
+
+.contact{
+	width:19%;
+	display:inline-block;
+	text-align:center;
+}
+
+.contact-icons {
+    padding: 0em 2.5%;
+}
+
+.contact-icons img {
+    width: 3.5em;
+}

@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Quicksand|Montserrat:400,700|Raleway);
+#master {
+    max-width: 960px;
+    margin: 0em auto;
+    text-align: center;
+}
+
+header {
+    height: 15em;
+}
+
+h1 {
+    color: rgb(3, 193, 123);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 400;
+    /*border: 1px solid black;
+    box-sizing:border-box;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list li {
+    color: rgb(6, 148, 180);
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.75em;
+    transitions: all 0.3s;
+    vertical-align: top;
+    /*border: 1px solid black;
+    box-sizing:border-box;*/
+}
+
+.nav-list {
+    text-align: center;
+    /*border: 1px solid black;
+    box-sizing:border-box;*/
+    padding: 0em 5%;
+}
+
+.nav-list li:hover >ul {
+    display: block;
+    /*border: 1px solid black;
+    box-sizing:border-box;*/
+    padding: 0em 2.5%;
+}
+
+.sub-nav-element {
+    display: none;
+    /*border: 1px solid black;
+    box-sizing:border-box;*/
+    padding: 0em 2.5%;
+}
+
+.sub-nav-element li {
+    font-size: .65em;
+    color: rgb(3, 203, 186);
+    text-align: center;
+    width: 45%;
+    position: relative;
+    display: inline-block;
+    /*border: 1px solid black;
+    box-sizing:border-box;*/
+}
+
+#about-me-img {
+    width: 45%;
+    display: inline-block;
+    height: 15em;
+    vertical-align: top;
+}
+
+#about-me-img {
+    height:auto;
+    width:auto;
+    padding:0em;
+}
+
+#about-me-img img{
+    height:20em;
+    right:0em;
+    border-radius: 50%;
+
+}
+.about-me {
+    text-align: left;
+    height: auto;
+    margin-left:2em;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-me h1 {
+    text-align: left;
+    font-size: 1.5em;
+    color: rgb(3, 114, 203);
+}
+
+.about-me p {
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    color: rgb(3, 203, 186);
+}
+
+.about-me img {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.footer {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer h1 {
+    font-size: 1.5em;
+    color: rgb(3, 193, 123);
+    text-align: left;
+}
+
+.contact {
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-icons {
+    padding: 0em 2.5%;
+}
+
+.contact-icons img {
+    width: 3em;
+}
