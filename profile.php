@@ -11,8 +11,8 @@
 <?php
 include('jassHeader.php');
 ?>
-        <div id="about-me-img" class="jumbotron">
-            <img src="img/profileJumbotron.jpg"></img>
+        <div id="about-me-img">
+            <img src="img/profilephoto.jpg"></img>
         </div>
         <div class="about-me">
             <h1>About Me:</h1>
