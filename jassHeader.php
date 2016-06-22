@@ -1,4 +1,5 @@
-
+<!DOCTYPE HTML5>
+<html>
 <header>
         <h1><a href="index.html">JASS BAGGA</a></h1>
         <ul class="nav-list">
@@ -55,3 +56,4 @@
             </li>
         </ul>
     </header>
+    </html>

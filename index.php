@@ -8,7 +8,9 @@
 </head>
 
 <body>
-   <?=$header?>
+   <?php
+include('jassHeader.php');
+?>
     <div class="jumbotron">
         <h1>Welcome to my portfolio!</h1>
         
