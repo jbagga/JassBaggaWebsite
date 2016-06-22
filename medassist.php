@@ -10,15 +10,16 @@
 <body>
    <?php
 include('jassHeader.php');
-?>
-<div class="jumbotron">
-    <h1>Welcome to my portfolio!</h1>
-</div>
+    ?>
+    <div class="jumbotron">
+        <h1>Welcome to my portfolio!</h1>
+    </div>
 
    <?php
 include('jassFooter.php');
-?>      
+    ?>      
     
 </body>
+
 
 </html>

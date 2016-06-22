@@ -1,7 +1,7 @@
 <!DOCTYPE HTML5>
 <html>
 <header>
-        <h1><a href="index.html">JASS BAGGA</a></h1>
+        <h1><a href="index.php">JASS BAGGA</a></h1>
         <ul class="nav-list">
             <li>
                 <a href="#">
@@ -9,12 +9,12 @@
                 </a>
                 <ul class="sub-nav-element">
                     <li>
-                        <a href="profile.html">
+                        <a href="profile.php">
                             <div class="sub-nav-profile">About Me</div>
                         </a>
                     </li>
                     <li>
-                        <a href="résumé.html">
+                        <a href="résumé.php">
                             <div class="sub-nav-profile">Résumé</div>
                         </a>
                     </li>
@@ -26,12 +26,12 @@
                 </a>
                 <ul class="sub-nav-element">
                     <li>
-                        <a href="techblog.html">
+                        <a href="techblog.php">
                             <div class="sub-nav-blog">Tech Blog</div>
                         </a>
                     </li>
                     <li>
-                        <a href="careerblog.html">
+                        <a href="careerblog.php">
                             <div class="sub-nav-blog">Career Blog</div>
                         </a>
                     </li>
@@ -43,12 +43,12 @@
                 </a>
                 <ul class="sub-nav-element">
                     <li>
-                        <a href="medassist.html">
+                        <a href="medassist.php">
                             <div class="sub-nav-projects">MedAssist</div>
                         </a>
                     </li>
                     <li>
-                        <a href="tetris.html">
+                        <a href="tetris.php">
                             <div class="sub-nav-projects">Tetris</div>
                         </a>
                     </li>
